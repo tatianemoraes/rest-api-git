@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repositorio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="geral">
+    <main class="container">
+      <img class="img-lg" src="./assets/cat-github.jpg" alt="Logo">
+        <h1>GitHub</h1>
+        <div class="search-user">
+          <div class="label-txt">
+            <label for="">Entre com o nick do usuário</label>
+          </div>
+          <input class="input-name" type="text">
+          <button class="btn-search">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="datas-user">
+          <!-- <img class="img-user" src="./assets/user-img.png" alt="Foto usuário">
+          <a href="/repositories/index.html">
+            <h2 class="name-user">Name user</h2>
+          </a>
+          <a href="/repositories/index.html">
+            <h2 class="qtd-repositorio">Repository</h2>
+          </a> -->
+        </div>
+    </main>
+  </div>
+  <script src="./script.js"></script>
+  <script src="./services/api.js"></script>
+  <script src="./utils/renderUser.js"></script>
+  <script src="./utils/renderUserNotFound.js"></script>
+  <script src="./utils/verifyQtdRepos.js"></script>
+</body>
+</html>

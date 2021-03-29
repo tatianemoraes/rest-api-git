@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background: #a8c0ff;
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+  background: linear-gradient(to right, #3f2b96, #a8c0ff);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f7f7f7;
+  height: 500px;
+  width: 500px;
+  margin: 20px;
+  padding-bottom: 71px;
+  box-shadow: 5px 5px 5px 5px #5043a7;
+}
+
+.img-lg {
+  width: 250px;
+  height: 250px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.search-user {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.input-name {
+  border: 1px solid #551a8b;
+  border-radius: 4px;
+  width: 270px;
+  height: 25px;
+  outline: none;
+}
+
+.fa-search {
+  margin-top: -19px;
+  position: absolute;
+  margin-left: 140px;
+  cursor: pointer;
+}
+
+.datas-user {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.datas-user {
+  padding-top: 10px;
+}
+
+.img-user {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin-left: -85px;
+}
+
+h2 {
+  font-size: 15px;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
